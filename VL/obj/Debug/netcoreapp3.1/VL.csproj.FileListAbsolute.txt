@@ -1,0 +1,14 @@
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\bin\Debug\netcoreapp3.1\VL.exe
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\bin\Debug\netcoreapp3.1\VL.deps.json
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\bin\Debug\netcoreapp3.1\VL.runtimeconfig.json
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\bin\Debug\netcoreapp3.1\VL.runtimeconfig.dev.json
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\bin\Debug\netcoreapp3.1\VL.dll
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\bin\Debug\netcoreapp3.1\VL.pdb
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\bin\Debug\netcoreapp3.1\BLL.dll
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\obj\Debug\netcoreapp3.1\VL.csprojAssemblyReference.cache
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\obj\Debug\netcoreapp3.1\VL.AssemblyInfoInputs.cache
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\obj\Debug\netcoreapp3.1\VL.AssemblyInfo.cs
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\obj\Debug\netcoreapp3.1\VL.csproj.CopyComplete
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\obj\Debug\netcoreapp3.1\VL.dll
+D:\Projects\RiderProjects\SSU.UsersAwards\VL\obj\Debug\netcoreapp3.1\VL.pdb
