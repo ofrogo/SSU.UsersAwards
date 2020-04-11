@@ -2,8 +2,12 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>SSU.UsersAwards</RootNamespace>
         <AssemblyName>BLL</AssemblyName>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DAL\DAL.csproj" />
+      <ProjectReference Include="..\Model\Model.csproj" />
+    </ItemGroup>
 
 </Project>

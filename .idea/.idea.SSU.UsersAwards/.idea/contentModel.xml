@@ -7,7 +7,9 @@
       <e p="BLL" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="BLL.csproj" t="IncludeRecursive" />
-        <e p="DateOfBirth.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IUserService.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -15,34 +17,53 @@
             </e>
           </e>
         </e>
-        <e p="User.cs" t="Include" />
+        <e p="TypeDataBase.cs" t="Include" />
+        <e p="UserService.cs" t="Include" />
       </e>
-      <e p="DAL.TextFiles" t="IncludeRecursive">
+      <e p="DAL" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="DAL.TextFiles.csproj" t="IncludeRecursive" />
+        <e p="DAL.csproj" t="IncludeRecursive" />
         <e p="FileIO.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IUserRepository.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="DAL.TextFiles.AssemblyInfo.cs" t="Include" />
+              <e p="DAL.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="UserRepo.cs" t="Include" />
+        <e p="UserJsonRepo.cs" t="Include" />
       </e>
-      <e p="packages" t="ExcludeRecursive" />
-      <e p="SSU.UsersAwards.sln" t="IncludeFlat" />
-      <e p="VL" t="IncludeRecursive">
+      <e p="Model" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DateOfBirth.cs" t="Include" />
+        <e p="Model.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="VL.AssemblyInfo.cs" t="Include" />
+              <e p="Model.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SSU.UsersAwards.sln" t="IncludeFlat" />
+      <e p="VL.Console" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands.cs" t="Include" />
+        <e p="config.json" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="VL.Console.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="Program.cs" t="Include" />
-        <e p="VL.csproj" t="IncludeRecursive" />
+        <e p="VL.Console.csproj" t="IncludeRecursive" />
       </e>
     </e>
   </component>

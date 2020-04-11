@@ -14,7 +14,14 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj": {
+            "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj"
+          },
+          "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj": {
+            "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -40,7 +47,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
     }
   }
 }

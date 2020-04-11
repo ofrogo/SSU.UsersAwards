@@ -1,0 +1,72 @@
+﻿[
+  {
+    "Id": 0,
+    "Name": "Nataliya",
+    "DateOfBirth": {
+      "Date": 9,
+      "Month": 6,
+      "Year": 1999
+    },
+    "Age": 20
+  },
+  {
+    "Id": 1,
+    "Name": "Danil",
+    "DateOfBirth": {
+      "Date": 18,
+      "Month": 11,
+      "Year": 1999
+    },
+    "Age": 20
+  },
+  {
+    "Id": 2,
+    "Name": "Bob",
+    "DateOfBirth": {
+      "Date": 1,
+      "Month": 2,
+      "Year": 1996
+    },
+    "Age": 24
+  },
+  {
+    "Id": 3,
+    "Name": "Jhon",
+    "DateOfBirth": {
+      "Date": 19,
+      "Month": 10,
+      "Year": 1999
+    },
+    "Age": 20
+  },
+  {
+    "Id": 4,
+    "Name": "Tom",
+    "DateOfBirth": {
+      "Date": 20,
+      "Month": 1,
+      "Year": 2000
+    },
+    "Age": 20
+  },
+  {
+    "Id": 5,
+    "Name": "George",
+    "DateOfBirth": {
+      "Date": 27,
+      "Month": 8,
+      "Year": 1999
+    },
+    "Age": 20
+  },
+  {
+    "Id": 6,
+    "Name": "Ffuc",
+    "DateOfBirth": {
+      "Date": 7,
+      "Month": 9,
+      "Year": 1999
+    },
+    "Age": 20
+  }
+]

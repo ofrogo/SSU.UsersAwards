@@ -1,0 +1,11 @@
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\bin\Release\netcoreapp3.1\DAL.deps.json
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\bin\Release\netcoreapp3.1\DAL.dll
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\bin\Release\netcoreapp3.1\DAL.pdb
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\bin\Release\netcoreapp3.1\Model.dll
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\bin\Release\netcoreapp3.1\Model.pdb
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\obj\Release\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\obj\Release\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\obj\Release\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\obj\Release\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\obj\Release\netcoreapp3.1\DAL.dll
+D:\Projects\RiderProjects\SSU.UsersAwards\DAL\obj\Release\netcoreapp3.1\DAL.pdb

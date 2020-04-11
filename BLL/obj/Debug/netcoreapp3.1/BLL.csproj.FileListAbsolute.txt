@@ -6,3 +6,8 @@ D:\Projects\RiderProjects\SSU.UsersAwards\BLL\obj\Debug\netcoreapp3.1\BLL.Assemb
 D:\Projects\RiderProjects\SSU.UsersAwards\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
 D:\Projects\RiderProjects\SSU.UsersAwards\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 D:\Projects\RiderProjects\SSU.UsersAwards\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+D:\Projects\RiderProjects\SSU.UsersAwards\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\Projects\RiderProjects\SSU.UsersAwards\BLL\bin\Debug\netcoreapp3.1\Model.dll
+D:\Projects\RiderProjects\SSU.UsersAwards\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\Projects\RiderProjects\SSU.UsersAwards\BLL\bin\Debug\netcoreapp3.1\Model.pdb
+D:\Projects\RiderProjects\SSU.UsersAwards\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
