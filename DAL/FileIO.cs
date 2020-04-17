@@ -5,17 +5,17 @@ namespace DAL
 {
     public static class FileIo
     {
-        public static string ReadFromFile(string fileName)
+        public static string Read(string path)
         {
-            using (var streamReader = new StreamReader(fileName))
+            using (var streamReader = new StreamReader(path))
             {
                 return streamReader.ReadToEnd();
             }
         }
 
-        public static void WriteToFile(string fileName, string text)
+        public static void Write(string path, string text)
         {
-            using (var streamWriter = new StreamWriter(fileName, false, Encoding.UTF8))
+            using (var streamWriter = new StreamWriter(path, false, Encoding.UTF8))
             {
                 streamWriter.Write(text);
             }
