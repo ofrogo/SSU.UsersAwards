@@ -4,16 +4,15 @@ using Abstract;
 using DAL.File;
 using Model;
 
-
 namespace BLL
 {
-    public class UserService : IService<User>
+    public class AwardService:IService<Award>
     {
         private readonly IRepository<User> _repositoryUser;
         private readonly IRepository<Award> _repositoryAward;
         private readonly IRepository<UserAward> _usersAwardsRepo;
 
-        public UserService(TypeDataBase type)
+        public AwardService(TypeDataBase type)
         {
             switch (type)
             {
@@ -29,19 +28,19 @@ namespace BLL
             }
         }
 
-        public User Get(int id)
+        public Award Get(int id)
         {
-            var user = _repositoryUser.Get(id);
-            user.Awards = _usersAwardsRepo.GetAll().FindAll(ua => ua.IdUser == user.Id)
-                .ConvertAll(ua => _repositoryAward.Get(ua.IdAward));
-            return user;
+            var award = _repositoryAward.Get(id);
+            award.Users = _usersAwardsRepo.GetAll().FindAll(ua => ua.IdAward == id)
+                .ConvertAll(ua => _repositoryUser.Get(ua.IdUser));
+            return award;
         }
 
-        public int Add(User user)
+        public int Add(Award t)
         {
             try
             {
-                _repositoryUser.Add(user);
+                _repositoryAward.Add(t);
                 return 1;
             }
             catch
@@ -50,11 +49,11 @@ namespace BLL
             }
         }
 
-        public int Delete(User user)
+        public int Delete(Award t)
         {
             try
             {
-                _repositoryUser.Delete(user);
+                _repositoryAward.Delete(t);
                 return 1;
             }
             catch
@@ -63,9 +62,9 @@ namespace BLL
             }
         }
 
-        public List<User> GetAll()
+        public List<Award> GetAll()
         {
-            return _repositoryUser.GetAll();
+            return _repositoryAward.GetAll();
         }
     }
 }

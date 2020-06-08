@@ -4,6 +4,56 @@
     "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\BLL\\BLL.csproj": {}
   },
   "projects": {
+    "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj",
+        "projectName": "Abstract",
+        "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj",
+        "packagesPath": "C:\\Users\\danyk\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danyk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,8 +75,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj"
+              "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj": {
+                "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj"
               },
               "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj": {
                 "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj"
@@ -61,14 +111,14 @@
         }
       }
     },
-    "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj": {
+    "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj",
-        "projectName": "DAL",
-        "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj",
+        "projectName": "DAL.File",
+        "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj",
         "packagesPath": "C:\\Users\\danyk\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\obj\\",
+        "outputPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danyk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -82,6 +132,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj": {
+                "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj"
+              },
               "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj": {
                 "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj"
               }

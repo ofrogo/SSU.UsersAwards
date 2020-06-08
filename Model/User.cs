@@ -1,13 +1,16 @@
-﻿namespace Model
+﻿using System.Collections.Generic;
+using System.Text.Json.Serialization;
+
+namespace Model
 {
     public class User
     {
         public long Id { get; set; }
         public string Name { get; set; }
         public DateOfBirth DateOfBirth { get; set; }
-
         public int? Age { get; set; }
 
+        [JsonIgnore] public List<Award> Awards { get; set; }
 
         public User()
         {
@@ -31,7 +34,8 @@
         public override string ToString()
         {
             return
-                $"[{Id}] {Name ?? "---"} {(DateOfBirth != null ? DateOfBirth.ToString() : "---")} {Age.ToString() ?? "---"}";
+                $"[{Id}] {Name ?? "---"} {(DateOfBirth != null ? DateOfBirth.ToString() : "---")} {Age.ToString() ?? "---"} " +
+                $"[{string.Join(",", Awards.ConvertAll(a => $"{a.Id} {a.Title}"))}]";
         }
     }
 }

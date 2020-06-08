@@ -2,23 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
-using DAL.Interfaces;
+using Abstract;
 using Microsoft.Extensions.Configuration;
 using Model;
 
-namespace DAL
+namespace DAL.File
 {
-    public class UserJsonRepo: IUserRepository
+    public class UserJsonRepo: IRepository<User>
     {
         private readonly List<User> _cashUsers = new List<User>();
         private readonly string _pathToFile;
+        private const int MaxSizeCash = 20;
+        private const int MinSizeCash = 9;
+
 
         public UserJsonRepo()
         {
             var config = new ConfigurationBuilder()
                 .AddJsonFile("config.json")
                 .Build();
-            _pathToFile = config["options:path"];
+            _pathToFile = config["options:path_user"];
         }
 
         public User Get(int id)
@@ -47,9 +50,9 @@ namespace DAL
             users.Add(user);
             _cashUsers.Insert(0, user);
             FileIo.Write(_pathToFile, JsonSerializer.Serialize(users));
-            if (_cashUsers.Count > 20)
+            if (_cashUsers.Count > MaxSizeCash)
             {
-                _cashUsers.RemoveRange(9, _cashUsers.Count - 9);
+                _cashUsers.RemoveRange(MinSizeCash, _cashUsers.Count - MinSizeCash);
             }
         }
 

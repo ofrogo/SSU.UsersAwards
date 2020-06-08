@@ -1,6 +1,8 @@
 ﻿{
   "type_data_base": "File",
   "options": {
-    "path": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\users.json"
+    "path_user": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\users.json",
+    "path_award": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\awards.json",
+    "path_users_awards": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\users&awards.json"
   }
 }

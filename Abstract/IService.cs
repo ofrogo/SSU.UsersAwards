@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BLL.Interfaces
+namespace Abstract
 {
     public interface IService<T>
     {

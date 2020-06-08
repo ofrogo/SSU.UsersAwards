@@ -105,22 +105,6 @@
           "bin/placeholder/Abstract.dll": {}
         }
       },
-      "DAL.File/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Abstract": "1.0.0",
-          "Microsoft.Extensions.Configuration": "3.1.3",
-          "Microsoft.Extensions.Configuration.Json": "3.1.3",
-          "Model": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DAL.File.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DAL.File.dll": {}
-        }
-      },
       "Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -265,11 +249,6 @@
       "path": "../Abstract/Abstract.csproj",
       "msbuildProject": "../Abstract/Abstract.csproj"
     },
-    "DAL.File/1.0.0": {
-      "type": "project",
-      "path": "../DAL.File/DAL.File.csproj",
-      "msbuildProject": "../DAL.File/DAL.File.csproj"
-    },
     "Model/1.0.0": {
       "type": "project",
       "path": "../Model/Model.csproj",
@@ -278,7 +257,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DAL.File >= 1.0.0",
+      "Abstract >= 1.0.0",
+      "Microsoft.Extensions.Configuration >= 3.1.3",
+      "Microsoft.Extensions.Configuration.Json >= 3.1.3",
       "Model >= 1.0.0"
     ]
   },
@@ -288,11 +269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\BLL\\BLL.csproj",
-      "projectName": "BLL",
-      "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj",
+      "projectName": "DAL.File",
+      "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj",
       "packagesPath": "C:\\Users\\danyk\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\BLL\\obj\\",
+      "outputPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danyk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -306,8 +287,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj": {
-              "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj"
+            "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj": {
+              "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj"
             },
             "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj": {
               "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj"
@@ -323,6 +304,16 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          },
+          "Microsoft.Extensions.Configuration.Json": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

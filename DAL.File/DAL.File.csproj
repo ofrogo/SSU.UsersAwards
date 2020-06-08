@@ -2,10 +2,10 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>DAL</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Abstract\Abstract.csproj" />
       <ProjectReference Include="..\Model\Model.csproj" />
     </ItemGroup>
 

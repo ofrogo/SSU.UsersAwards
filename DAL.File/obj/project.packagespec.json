@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj",
-    "projectName": "DAL",
-    "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\DAL.csproj",
-    "outputPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL\\obj\\",
+    "projectUniqueName": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj",
+    "projectName": "DAL.File",
+    "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\DAL.File.csproj",
+    "outputPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\DAL.File\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -15,6 +15,9 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
+          "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj": {
+            "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Abstract\\Abstract.csproj"
+          },
           "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj": {
             "projectPath": "D:\\Projects\\RiderProjects\\SSU.UsersAwards\\Model\\Model.csproj"
           }

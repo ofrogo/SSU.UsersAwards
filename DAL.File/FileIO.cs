@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace DAL
+namespace DAL.File
 {
     public static class FileIo
     {
